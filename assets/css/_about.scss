@@ -1,0 +1,70 @@
+/*=================================================================
+  About us section
+==================================================================*/
+.about {
+  background: #fff;
+}
+
+.about h2 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+@media (max-width: 992px) {
+  .about h2 {
+    font-size: 25px;
+  }
+}
+
+.about h4 {
+  font-size: 14px;
+  color: #f0326b;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.about p {
+  line-height: 1.6;
+  margin-top: 20px;
+}
+
+.about .content {
+  padding: 50px 0;
+}
+
+@media (max-width: 992px) {
+  .about .content {
+    padding: 5px 0;
+  }
+}
+
+/*=================================================================
+  About us 2 section
+==================================================================*/
+.about-2 {
+  background: #F7F7F7;
+}
+
+.about-2 h2 {
+  position: relative;
+}
+
+.about-2 h2:before {
+  position: absolute;
+  left: -15%;
+  top: 18px;
+  content: '';
+  display: inline-block;
+  width: 12%;
+  height: 3px;
+  background-color: #ffa535;
+  background-image: linear-gradient(100deg, #f9643d, #fe2a77);
+  background-image: linear-gradient(100deg, #f9643d, #fe2a77);
+}
+
+@media (max-width: 768px) {
+  .about-2 h2:before {
+    display: none;
+  }
+}

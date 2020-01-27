@@ -1163,8 +1163,8 @@ a:focus, a:hover {
 }
 
 .services .service-block i {
-  font-size: 40px;
-  color: #f0326b;
+  font-size: 80px;
+  color: $blueberry;
   background: linear-gradient(100deg, #f9643d, #fe2a77);
   background-clip: text;
   -webkit-background-clip: text;
